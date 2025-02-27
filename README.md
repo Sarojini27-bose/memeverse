@@ -53,3 +53,7 @@ To run MemeVerse locally:
    ```bash
    git clone https://github.com/yourusername/memeverse.git
    cd memeverse
+
+   ** DEMO LINK**
+   https://mmeversebysarojini.netlify.app/
+   
