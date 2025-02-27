@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MemeVerse
 
-## Getting Started
+MemeVerse is an interactive, multi-page meme platform built with Next.js, React, Tailwind CSS, and Framer Motion. Users can explore trending memes, upload and share their own memes, view detailed meme pages with like/comment/share functionality, manage their profile, and check out a leaderboard of top meme creators—all wrapped in a fun, meme-inspired design.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Demo](#demo)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Home Page:**  
+  - Dynamic landing page displaying trending memes with smooth animations and a dark mode toggle.
+  
+- **Explore Page:**  
+  - Infinite scrolling, filtering, and sorting of memes.
+  - Clickable meme cards that navigate to individual meme detail pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Meme Detail Page:**  
+  - Detailed view of each meme with like, comment, and share functionalities.
+  - Persistence of likes and comments via localStorage.
 
-## Learn More
+- **User Profile Page:**  
+  - View and edit your profile information (Name, Bio, and Profile Picture).
+  - See the memes you’ve uploaded and the ones you’ve liked.
+  
+- **Leaderboard:**  
+  - View the top 10 most liked memes.
+  - See user rankings based on engagement.
 
-To learn more about Next.js, take a look at the following resources:
+- **404 Page (Easter Egg):**  
+  - A fun, meme-based 404 error page for non-existent routes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js & React:** For building a fast, SEO-friendly, interactive web application.
+- **Tailwind CSS:** For rapid and responsive styling.
+- **Framer Motion:** For smooth and creative animations.
+- **LocalStorage:** To persist user interactions like likes and comments.
+- **Vercel/Netlify:** For seamless deployment of the application.
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run MemeVerse locally:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/memeverse.git
+   cd memeverse
